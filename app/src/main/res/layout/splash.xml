@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#000000">
+
+	<RelativeLayout
+		android:layout_height="240dp"
+		android:layout_width="260dp"
+		android:background="@drawable/image_1"
+		android:layout_marginBottom="100dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="SANTINIKETAN MESS"
+		android:textColor="#05BDF1"
+		android:textSize="36sp"
+		android:layout_marginBottom="120dp"
+		android:textStyle="bold|normal"
+		android:typeface="serif"
+		android:gravity="center"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="Welcome To Portal"
+		android:textColor="#08FCFC"
+		android:layout_marginTop="12dp"
+		android:textStyle="italic"
+		android:typeface="monospace"/>
+
+</LinearLayout>
+

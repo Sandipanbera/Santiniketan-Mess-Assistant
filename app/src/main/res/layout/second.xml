@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@drawable/secondgrad">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textAlignment="center"
+			android:textColor="#24FF00"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="WELCOME!!! TO SANTINIKETAN MESS"
+			android:id="@+id/textView"
+			android:textSize="22sp"
+			android:typeface="serif"
+			android:background="@drawable/head_lay"/>
+
+		<ScrollView
+			android:layout_marginTop="10dp"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/scrollViewvertical">
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:paddingLeft="10dp">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/santanu"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SANTANU TRIPATHY"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="M.Sc In Maths"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/santanumeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/santanudepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/santanutot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/santanudue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/sadhan"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SADHAN MAHATA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="M.Sc In Physics"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/sadhanmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/sadhandepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/sadhantot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/sadhandue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/arindam"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="ARINDAM JANA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Physics"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/arindammeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/arindamdepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="match_parent"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/arindamtot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/arindamdue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/sandipan"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SANDIPAN BERA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Maths"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/sandymeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/sandydepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/sandytot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/sandydue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/sabujg"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SABUJ GHORAI"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Maths"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/sabujmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/sabujdepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/sabujtot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/sabujdue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/rohit"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="ROHIT DE"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Maths"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/rohitmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/rohitdepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/rohittot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/rohitdue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/sourav"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SOURAV JANA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.A In English"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/souravmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/souravdepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/souravtot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/souravdue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/sabujb"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SABUJ BHUNIA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Physics"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/subhameal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/subhadepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/subhatot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/subhadue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/ujjwal"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="UJJWAL PATAR"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.A In Phy. Education"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/ujjwalmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/ujjwaldepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/ujjwaltot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/ujjwaldue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:orientation="horizontal"
+					android:layout_marginTop="15dp">
+
+					<ImageView
+						android:id="@+id/photo"
+						android:layout_width="100dp"
+						android:layout_height="100dp"
+						android:paddingTop="10dp"
+						android:paddingRight="10dp"
+						android:paddingBottom="10dp"
+						android:background="@drawable/samir"/>
+
+					<LinearLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						android:layout_marginLeft="5dp">
+
+						<TextView
+							android:id="@+id/txt"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="15dp"
+							android:typeface="monospace"
+							android:text="SAMIR BHUNIA"
+							android:textStyle="bold"/>
+
+						<TextView
+							android:id="@+id/edu"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:textSize="10dp"
+							android:typeface="serif"
+							android:text="B.Sc In Chemistry"/>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="horizontal"
+							android:layout_marginTop="10dp">
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="60dp"
+								android:ems="10"
+								android:hint="Meals"
+								android:textColorHint="#08F089"
+								android:id="@+id/samirmeal"
+								android:inputType="number"/>
+
+							<EditText
+								android:layout_height="wrap_content"
+								android:layout_width="70dp"
+								android:ems="10"
+								android:layout_marginLeft="66dp"
+								android:hint="Deposit"
+								android:textColorHint="#08F089"
+								android:id="@+id/samirdepo"
+								android:inputType="number"/>
+
+						</LinearLayout>
+
+						<LinearLayout
+							android:layout_height="wrap_content"
+							android:layout_width="wrap_content"
+							android:orientation="vertical"
+							android:layout_marginTop="10dp">
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Total:"
+								android:layout_marginTop="10dp"
+								android:textColor="#CA72E9"
+								android:id="@+id/samirtot"
+								android:textSize="20sp"/>
+
+							<TextView
+								android:layout_height="wrap_content"
+								android:layout_width="wrap_content"
+								android:text="Have To Paid:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FC0000"
+								android:id="@+id/samirdue"
+								android:textSize="20sp"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</LinearLayout>
+
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="0.3px"
+					android:background="#000000"/>
+
+			</LinearLayout>
+
+		</ScrollView>
+
+	</LinearLayout>
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:gravity="center"
+		android:layout_marginTop="10dp"
+		android:background="@drawable/mnbtnlyt">
+
+		<Button
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="SEE RESULTS"
+			android:id="@+id/finalresult"
+			android:weightSum="0.5"
+			android:background="@drawable/bt_fires"
+			android:elevation="35dp"
+			android:textSize="13sp"
+			android:typeface="serif"
+			android:textStyle="bold"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+
