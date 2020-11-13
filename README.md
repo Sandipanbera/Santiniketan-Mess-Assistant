@@ -1,1 +1,0 @@
-# Santiniketan-Mess-Assistant
